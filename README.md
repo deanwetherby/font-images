@@ -22,7 +22,7 @@ $ source venv/bin/activate
 ## Usage
 
 ```
-(venv) $ python generate.py -h
+(font) $ python generate.py -h
 usage: generate.py [-h] [-f FONT] [-s SIZE] [-o OUTPUT]
 
 optional arguments:
