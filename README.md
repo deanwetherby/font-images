@@ -13,12 +13,11 @@ Clone this repo. Create a local virtual environment. Install dependencies.
 ```
 $ git clone https://github.com/deanwetherby/font-images.git
 $ cd font-images
-$ python3 -m venv venv
+$ python3 -m venv --prompt font venv
 $ source venv/bin/activate
-(venv) $ pip install --upgrade pip
-(venv) $ pip install -r requirements.txt
+(font) $ python -m pip install --upgrade pip
+(font) $ python -m pip install -r requirements.txt
 ```
-
 
 ## Usage
 
@@ -32,13 +31,11 @@ optional arguments:
   -s SIZE, --size SIZE  Character image size
   -o OUTPUT, --output OUTPUT
                         Output folder to place character images
-
-
 ```
 
 ## Examples
 
 ```
-(venv) $ python generate.py --font Erebor.tff --output ./output
+(font) $ python generate.py --font Erebor.ttf --output ./output
 
 ```
